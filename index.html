@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Health Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🧪 Lab Health Analyzer</h1>
+    <p>Enter your lab test readings below:</p>
+  </header>
+
+  <main class="container">
+    <textarea id="reportInput" placeholder="Example:&#10;Platelet Count = 120000&#10;NS1 Antigen = 0&#10;Malaria Parasite Count = 250&#10;Widal O titer = 160&#10;Urine Protein mg/dL = 20&#10;AIC =6.2&#10;Systolic Pressure =120&#10;Diastolic Pressure = 9&#10;LDL Cholestrol = 170&#10;HDL Colestrol = 30&#10;Triglycerides =200&#10;Hemoglobin = 10&#10;Hemotocrit = 30&#10;Red Blood cell Count = 3.0&#10;ALT = 75&#10;AST = 45" ></textarea>
+    <button onclick="analyzeReport()">Analyze Report</button>
+
+    <div id="output" class="cards-container"></div>
+  </main>
+
+  <footer>
+    <p>Lab Health Analyzer © 2025 | Hackathon Ready</p>
+  </footer>
+    
+
+  <script src="script.js"></script>
+</body>
+</html>
