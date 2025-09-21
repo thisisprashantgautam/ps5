@@ -87,6 +87,7 @@ Connect to AI-based health recommendation system.
 Export results as PDF / Shareable link.
 
 Build a React / Next.js version for scalability.
+website link http://172.20.79.63:3000/index.html?serverWindowId=00ba19bd-64dd-451c-a54c-16aa2c8b466b
 
 👨‍💻 BY
 
@@ -94,4 +95,5 @@ Developed By team CODE CATALYST  🚀
 Members: Rachit Garg 
          Prashant Gautam (Lead)
          Anant Singhal 
+
          Ayush Singh  
